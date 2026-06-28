@@ -12,3 +12,18 @@ C:\Users\Admin\Documents\c# type shi\calc(short_for_calculator_just_using_slang)
 C:\Users\Admin\Documents\c# type shi\calc(short_for_calculator_just_using_slang)\obj\Debug\net8.0\calc(short_for_calculator_just_using_slang).pdb
 C:\Users\Admin\Documents\c# type shi\calc(short_for_calculator_just_using_slang)\obj\Debug\net8.0\calc(short_for_calculator_just_using_slang).genruntimeconfig.cache
 C:\Users\Admin\Documents\c# type shi\calc(short_for_calculator_just_using_slang)\obj\Debug\net8.0\ref\calc(short_for_calculator_just_using_slang).dll
+C:\Users\david\calc\calc(short_for_calculator_just_using_slang)\bin\Debug\net8.0\calc(short_for_calculator_just_using_slang).exe
+C:\Users\david\calc\calc(short_for_calculator_just_using_slang)\bin\Debug\net8.0\calc(short_for_calculator_just_using_slang).deps.json
+C:\Users\david\calc\calc(short_for_calculator_just_using_slang)\bin\Debug\net8.0\calc(short_for_calculator_just_using_slang).runtimeconfig.json
+C:\Users\david\calc\calc(short_for_calculator_just_using_slang)\bin\Debug\net8.0\calc(short_for_calculator_just_using_slang).dll
+C:\Users\david\calc\calc(short_for_calculator_just_using_slang)\bin\Debug\net8.0\calc(short_for_calculator_just_using_slang).pdb
+C:\Users\david\calc\calc(short_for_calculator_just_using_slang)\obj\Debug\net8.0\calc(short_for_calculator_just_using_slang).GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\david\calc\calc(short_for_calculator_just_using_slang)\obj\Debug\net8.0\calc(short_for_calculator_just_using_slang).AssemblyInfoInputs.cache
+C:\Users\david\calc\calc(short_for_calculator_just_using_slang)\obj\Debug\net8.0\calc(short_for_calculator_just_using_slang).AssemblyInfo.cs
+C:\Users\david\calc\calc(short_for_calculator_just_using_slang)\obj\Debug\net8.0\calc(short_for_calculator_just_using_slang).csproj.CoreCompileInputs.cache
+C:\Users\david\calc\calc(short_for_calculator_just_using_slang)\obj\Debug\net8.0\calc(short_for_calculator_just_using_slang).sourcelink.json
+C:\Users\david\calc\calc(short_for_calculator_just_using_slang)\obj\Debug\net8.0\calc(short_for_calculator_just_using_slang).dll
+C:\Users\david\calc\calc(short_for_calculator_just_using_slang)\obj\Debug\net8.0\refint\calc(short_for_calculator_just_using_slang).dll
+C:\Users\david\calc\calc(short_for_calculator_just_using_slang)\obj\Debug\net8.0\calc(short_for_calculator_just_using_slang).pdb
+C:\Users\david\calc\calc(short_for_calculator_just_using_slang)\obj\Debug\net8.0\calc(short_for_calculator_just_using_slang).genruntimeconfig.cache
+C:\Users\david\calc\calc(short_for_calculator_just_using_slang)\obj\Debug\net8.0\ref\calc(short_for_calculator_just_using_slang).dll

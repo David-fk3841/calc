@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Admin\\Documents\\c# type shi\\calc(short_for_calculator_just_using_slang)\\calc(short_for_calculator_just_using_slang).csproj": {}
+    "C:\\Users\\david\\calc\\calc(short_for_calculator_just_using_slang)\\calc(short_for_calculator_just_using_slang).csproj": {}
   },
   "projects": {
-    "C:\\Users\\Admin\\Documents\\c# type shi\\calc(short_for_calculator_just_using_slang)\\calc(short_for_calculator_just_using_slang).csproj": {
+    "C:\\Users\\david\\calc\\calc(short_for_calculator_just_using_slang)\\calc(short_for_calculator_just_using_slang).csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\Documents\\c# type shi\\calc(short_for_calculator_just_using_slang)\\calc(short_for_calculator_just_using_slang).csproj",
+        "projectUniqueName": "C:\\Users\\david\\calc\\calc(short_for_calculator_just_using_slang)\\calc(short_for_calculator_just_using_slang).csproj",
         "projectName": "calc(short_for_calculator_just_using_slang)",
-        "projectPath": "C:\\Users\\Admin\\Documents\\c# type shi\\calc(short_for_calculator_just_using_slang)\\calc(short_for_calculator_just_using_slang).csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\Documents\\c# type shi\\calc(short_for_calculator_just_using_slang)\\obj\\",
+        "projectPath": "C:\\Users\\david\\calc\\calc(short_for_calculator_just_using_slang)\\calc(short_for_calculator_just_using_slang).csproj",
+        "packagesPath": "C:\\Users\\david\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\david\\calc\\calc(short_for_calculator_just_using_slang)\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\david\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -66,7 +66,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.315/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.311/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

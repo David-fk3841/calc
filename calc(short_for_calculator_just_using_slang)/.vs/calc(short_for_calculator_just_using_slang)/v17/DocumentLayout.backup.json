@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Admin\\Documents\\c# type shi\\calc(short_for_calculator_just_using_slang)\\",
+  "WorkspaceRootPath": "C:\\Users\\david\\calc\\calc(short_for_calculator_just_using_slang)\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D6D31E00-09A8-486F-8DB5-7FB0FA0AA73B}|calc(short_for_calculator_just_using_slang).csproj|c:\\users\\admin\\documents\\c# type shi\\calc(short_for_calculator_just_using_slang)\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D6D31E00-09A8-486F-8DB5-7FB0FA0AA73B}|calc(short_for_calculator_just_using_slang).csproj|c:\\users\\david\\calc\\calc(short_for_calculator_just_using_slang)\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D6D31E00-09A8-486F-8DB5-7FB0FA0AA73B}|calc(short_for_calculator_just_using_slang).csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\c# type shi\\calc(short_for_calculator_just_using_slang)\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\david\\calc\\calc(short_for_calculator_just_using_slang)\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Admin\\Documents\\c# type shi\\calc(short_for_calculator_just_using_slang)\\Program.cs",
+              "ToolTip": "C:\\Users\\david\\calc\\calc(short_for_calculator_just_using_slang)\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAowIAAAABAAAAAAAAAAA==",
+              "ViewState": "AgIAAP8AAAAAAAAAAAAAAAoBAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-26T11:20:36.016Z",
               "EditorCaption": ""
