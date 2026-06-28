@@ -17,7 +17,7 @@ namespace calc_short_for_calculator_just_using_slang_
             int Choice;
             Console.Clear();
             Console.WriteLine("Select a function using 1, 2, 3 or 4");
-            Console.WriteLine("1. Basic Calculator\n2. Cryptography\n3. option\n4. option\n:");
+            Console.WriteLine("1. Basic Calculator\n2. Cryptography\n3. Binary\n4. Number Theory\n:");
             Choice = Convert.ToInt32(Console.ReadLine());
             switch (Choice)
             {
@@ -31,7 +31,7 @@ namespace calc_short_for_calculator_just_using_slang_
                     Binary();
                     break;
                 case 4:
-                    Option4();
+                    NumberTheory();
                     break;
                 default:
                     Console.Clear();
@@ -90,7 +90,7 @@ namespace calc_short_for_calculator_just_using_slang_
                     Console.WriteLine("Result: " + (Math.Pow(num1, num2)));
                     break;
                 default:
-                    Console.WriteLine("Invalid operator");
+                    Console.WriteLine("That isnt a valid operator...");
                     break;
             }
             Console.WriteLine("Press enter to return to menu");
@@ -141,7 +141,7 @@ namespace calc_short_for_calculator_just_using_slang_
                     Console.WriteLine("valid multiplication keys are: 1, 3, 5, 7, 9, 11, 15, 17, 19, 21, 23 and 25");
                     Console.WriteLine("Enter a key to multiply the message by: ");
                     multikey = Convert.ToInt32(Console.ReadLine());
-                    while (!keys.Contains(multikey))
+                    while (!keys.Contains(multikey))//checks if the key is valid, if not it asks for a new key
                     {
                         Console.WriteLine("Please enter a valid key: ");
                         multikey = Convert.ToInt32(Console.ReadLine());
@@ -156,6 +156,7 @@ namespace calc_short_for_calculator_just_using_slang_
                     }
                     foreach (char n in input)
                     {
+                        //affine cipher encryption, multiplies each character by the multiplication key, adds the shift key and mod 26
                         encrypted += (char)((((multikey)*(n - 'A') + (shiftkey)) % 26) + 'A');
                     }
                     Console.WriteLine($"Encrypted message: {encrypted}");
@@ -199,7 +200,7 @@ namespace calc_short_for_calculator_just_using_slang_
                     Console.WriteLine("Enter a string to decrypt:");
                     input = Console.ReadLine();
                     input = input.ToUpper().Replace(" ", "");
-                    Stopwatch stopwatch = Stopwatch.StartNew();
+                    Stopwatch stopwatch = Stopwatch.StartNew();//had to google this
                     foreach (int i in inversekeys)
                     {
                         for (int b = 0; b < 26 ;b++)
@@ -233,6 +234,7 @@ namespace calc_short_for_calculator_just_using_slang_
         }
 
         static void Binary()
+        //binary calculator, converts between decimal, binary and hex, also does binary addition and subtraction
         {
             int Choice, input, deci;
             string binary, hex, input1, input2;
@@ -243,37 +245,44 @@ namespace calc_short_for_calculator_just_using_slang_
             switch (Choice)
             {
                 case 1:
+                    //decimal to binary
                     Console.WriteLine("Enter the number you would like to convert to binary:");
                     input = Convert.ToInt32(Console.ReadLine());
                     binary = Convert.ToString(input, 2).PadLeft(8, '0');
                     Console.WriteLine(binary);
+                    Console.WriteLine("Press enter to return to menu");
                     Console.ReadLine();
                     Console.Clear();
                     Menu();
                     break;
 
                 case 2:
+                    //binary to decimal
                     Console.WriteLine("Enter the Binary you would like to convert to decimal:");
                     binary = Console.ReadLine();
                     input = Convert.ToInt32(binary, 2);
                     Console.WriteLine(input);
+                    Console.WriteLine("Press enter to return to menu");
                     Console.ReadLine();
                     Console.Clear();
                     Menu();
                     break;
 
                 case 3:
+                    //hex to binary
                     Console.WriteLine("Enter the hex you would like to convert to binary:");
                     hex = Console.ReadLine();
                     deci = Convert.ToInt32(hex, 16);
                     binary = Convert.ToString(deci, 2).PadLeft(8, '0');
                     Console.WriteLine(binary);
+                    Console.WriteLine("Press enter to return to menu");
                     Console.ReadLine();
                     Console.Clear();
                     Menu();
                     break;
 
                 case 4:
+                    //binary addition
                     Console.WriteLine("Enter your first binary number");
                     input1 = Console.ReadLine();
                     Console.WriteLine("Enter your second binary number");
@@ -283,13 +292,15 @@ namespace calc_short_for_calculator_just_using_slang_
                     Choice = (input + deci);
                     binary = Convert.ToString(Choice, 2).PadLeft(8, '0');
                     Console.WriteLine(binary);
-                    //didnt wanna add a million names so fuck it *reuses other variables*
+                    //didnt wanna add a million names so f*ck it *reuses other variables*
+                    Console.WriteLine("Press enter to return to menu");
                     Console.ReadLine();
                     Console.Clear();
                     Menu();
                     break;
 
                 case 5:
+                    //binary subtraction
                     Console.WriteLine("Enter your first binary number");
                     input1 = Console.ReadLine();
                     Console.WriteLine("Enter your second binary number");
@@ -299,6 +310,7 @@ namespace calc_short_for_calculator_just_using_slang_
                     Choice = (input - deci);
                     binary = Convert.ToString(Choice, 2).PadLeft(8, '0');
                     Console.WriteLine(binary);
+                    Console.WriteLine("Press enter to return to menu");
                     Console.ReadLine();
                     Console.Clear();
                     Menu();
@@ -320,9 +332,139 @@ namespace calc_short_for_calculator_just_using_slang_
 
         }
 
-        static void Option4()
+        static void NumberTheory()
         {
-            
+            int Choice, input;
+            bool IsPrime;
+            Console.WriteLine("Number Theory\n1. Primality Test\n2. Barcode Check Digits\n3. Linear Congruential RNG\n:");
+            Choice = Convert.ToInt32(Console.ReadLine());
+            switch (Choice)
+            {
+                case 1:
+                    Console.WriteLine("Primality Test");
+                    Console.WriteLine("Enter a number you want to test: ");
+                    input = Convert.ToInt32(Console.ReadLine());
+                    if (input < 2)
+                    {
+                        Console.WriteLine("Not prime");
+                    }
+                    else if (input == 2)
+                    {
+                        Console.WriteLine("Prime");
+                    }
+                    else if (input % 2 == 0)
+                    {
+                        Console.WriteLine("Not prime");
+                    }
+                    else
+                    {
+                        //starts at 3 and goes up to the square root of the input, checking if the input is
+                        //divisible by any number in that range, steps up by 2 to skip even numbers
+                        IsPrime = true;
+                        for (int i = 3; i <= Math.Sqrt(input); i += 2)
+                        {
+                            if (input % i == 0)
+                            {
+                                IsPrime = false;
+                            }
+                        }
+
+                        if (IsPrime)
+                        {
+                            Console.WriteLine("Prime");
+                        }
+                        else
+                        {
+                            Console.WriteLine("Not prime");
+                        }
+                    }
+                    Console.WriteLine("Press enter to return to menu");
+                    Console.ReadLine();
+                    Menu();
+                    break;
+
+
+                case 2:
+                    //For this section i used chatgpt to help me out, i asked it "Give me sudo code for calculating barcode check digits
+                    //for UPC, ISBN and EAN, take it one section at a time letting me make sure my code is on the right track"
+                    //had to go back through alot of the course material to remember how to do this as it was a topic i struggled to understand.
+                    string barcode;
+                    int sum, CheckDigit;
+                    Console.WriteLine("Barcode Check Digits");
+                    Console.WriteLine("Enter barcode (without check digit): ");
+                    barcode = Console.ReadLine();
+                    switch (barcode.Length)
+                    {
+                        case 11:
+                            //checks if the barcode is 11 digits long, if it is it calculates the check digit for UPC
+                            sum = 0;
+                            for (int i = 0; i < 11; i++)
+                            {
+                                sum += (barcode[i] - '0') * (i % 2 == 0 ? 3 : 1);
+                            }
+                            CheckDigit = (10 - (sum % 10)) % 10;
+                            Console.WriteLine($"Check digit: {CheckDigit}");
+                            break;
+
+                        case 12:
+                            //checks if the barcode is 12 digits long, if it is it calculates the check digit for EAN/ISBN
+                            sum = 0;
+                            string type;
+
+                            for (int i = 0; i < barcode.Length; i++)
+                            {
+                                sum += (barcode[i] - '0') * (i % 2 == 0 ? 1 : 3);
+                            }
+
+                            CheckDigit = (10 - (sum % 10)) % 10;
+                            //checks if the barcode starts with 978 or 979, if it does it is an ISBN-13, otherwise it is an EAN-13
+                            if (barcode.StartsWith("978") || barcode.StartsWith("979"))
+                                type = "ISBN-13";
+                            else
+                                type = "EAN-13";
+
+                            Console.WriteLine(type);
+                            Console.WriteLine($"Check digit: {CheckDigit}");
+                    }
+                    Console.WriteLine("Press enter to return to menu");
+                    Console.ReadLine();
+                    Menu();
+                    break;
+                case 3:
+                    Console.WriteLine("Linear Congruential RNG");
+                    int a, c, m, seed, n, count;
+                    Console.WriteLine("Enter multiplier: ");
+                    a = Convert.ToInt32(Console.ReadLine());
+                    Console.WriteLine("Enter increment: ");
+                    c = Convert.ToInt32(Console.ReadLine());
+                    Console.WriteLine("Enter modulus: ");
+                    m = Convert.ToInt32(Console.ReadLine());
+                    Console.WriteLine("Enter seed: ");
+                    seed = Convert.ToInt32(Console.ReadLine());
+                    Console.WriteLine("Enter number of random numbers to generate: ");
+                    n = Convert.ToInt32(Console.ReadLine());
+                    Console.WriteLine("Generated random numbers: ");
+                    for (int i = 0; i < n; i++)
+                    {
+                         seed= (a * seed + c) % m;
+                        Console.WriteLine(seed);
+                    }
+                    Console.WriteLine("Press enter to return to menu");
+                    Console.ReadLine();
+                    Menu();
+                    break;
+
+                default:
+                    Console.WriteLine("Invalid input");
+                    Thread.Sleep(1500);
+                    Console.Clear();
+                    NumberTheory();
+                    break;
+            }
+
+
+
+
         }
     }
 }
