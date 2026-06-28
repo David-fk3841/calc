@@ -1,0 +1,14 @@
+C:\Users\Admin\Documents\c# type shi\calc(short_for_calculator_just_using_slang)\obj\Debug\net8.0\calc(short_for_calculator_just_using_slang).GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Documents\c# type shi\calc(short_for_calculator_just_using_slang)\obj\Debug\net8.0\calc(short_for_calculator_just_using_slang).AssemblyInfoInputs.cache
+C:\Users\Admin\Documents\c# type shi\calc(short_for_calculator_just_using_slang)\obj\Debug\net8.0\calc(short_for_calculator_just_using_slang).AssemblyInfo.cs
+C:\Users\Admin\Documents\c# type shi\calc(short_for_calculator_just_using_slang)\obj\Debug\net8.0\calc(short_for_calculator_just_using_slang).csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\c# type shi\calc(short_for_calculator_just_using_slang)\bin\Debug\net8.0\calc(short_for_calculator_just_using_slang).exe
+C:\Users\Admin\Documents\c# type shi\calc(short_for_calculator_just_using_slang)\bin\Debug\net8.0\calc(short_for_calculator_just_using_slang).deps.json
+C:\Users\Admin\Documents\c# type shi\calc(short_for_calculator_just_using_slang)\bin\Debug\net8.0\calc(short_for_calculator_just_using_slang).runtimeconfig.json
+C:\Users\Admin\Documents\c# type shi\calc(short_for_calculator_just_using_slang)\bin\Debug\net8.0\calc(short_for_calculator_just_using_slang).dll
+C:\Users\Admin\Documents\c# type shi\calc(short_for_calculator_just_using_slang)\bin\Debug\net8.0\calc(short_for_calculator_just_using_slang).pdb
+C:\Users\Admin\Documents\c# type shi\calc(short_for_calculator_just_using_slang)\obj\Debug\net8.0\calc(short_for_calculator_just_using_slang).dll
+C:\Users\Admin\Documents\c# type shi\calc(short_for_calculator_just_using_slang)\obj\Debug\net8.0\refint\calc(short_for_calculator_just_using_slang).dll
+C:\Users\Admin\Documents\c# type shi\calc(short_for_calculator_just_using_slang)\obj\Debug\net8.0\calc(short_for_calculator_just_using_slang).pdb
+C:\Users\Admin\Documents\c# type shi\calc(short_for_calculator_just_using_slang)\obj\Debug\net8.0\calc(short_for_calculator_just_using_slang).genruntimeconfig.cache
+C:\Users\Admin\Documents\c# type shi\calc(short_for_calculator_just_using_slang)\obj\Debug\net8.0\ref\calc(short_for_calculator_just_using_slang).dll
